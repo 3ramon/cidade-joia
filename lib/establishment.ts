@@ -1,5 +1,3 @@
-
-//criando a interface dos estabelecimentos
 export interface Establishment {
     id: number;
     name: string;
@@ -9,7 +7,6 @@ export interface Establishment {
     contact: string;
 }
 
-// mocando estabelecimentos para teste
 export const establishments: Establishment[] = [
     {
         id: 1,
@@ -23,7 +20,12 @@ export const establishments: Establishment[] = [
         id: 2,
         name: "Texas Burguer",
         type: "hamburgueria",
-        photos: ["/establishments/burguer.jpg"],
+        photos: [
+            "/establishments/burguer.jpg",
+            "/establishments/burguer.jpg",
+            "/establishments/burguer.jpg",
+            "/establishments/burguer.jpg",
+        ],
         openingHours: "19:00 - 01:00 (Terça a Domingo)",
         contact: "(44) 91122-3344 | @texasburguer",
     },

@@ -1,4 +1,4 @@
-import { Establishment } from "../../lib/data";
+import { Establishment } from "../../lib/establishment";
 
 interface CardProps {
     establishment: Establishment;
@@ -7,7 +7,6 @@ interface CardProps {
 
 export default function Card({ establishment, onClick }: CardProps) {
     return (
-        // container principal
         <div
             className="border rounded-lg p-4 hover:shadow-md transition-shadow cursor-pointer"
             onClick={onClick}
@@ -16,7 +15,6 @@ export default function Card({ establishment, onClick }: CardProps) {
             <p className="text-sm text-gray-600 capitalize">
                 {establishment.type}
             </p>
-            {/* ajustar a parte das fotos e import **resolver erro de import */}
             {establishment.photos[0] && (
                 <img
                     src={establishment.photos[0]}
