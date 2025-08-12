@@ -1,4 +1,4 @@
-import { Establishment } from "../../lib/establishment";
+import { Establishment } from "@/src/lib/types/establishment";
 
 interface CardProps {
     establishment: Establishment;

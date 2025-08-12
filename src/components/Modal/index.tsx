@@ -1,5 +1,5 @@
 "use client";
-import { Establishment } from "@/lib/establishment";
+import { Establishment } from "@/src/lib/types/establishment";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Modal({

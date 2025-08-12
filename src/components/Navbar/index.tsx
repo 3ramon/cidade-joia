@@ -16,7 +16,7 @@ export function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
         >
-            <header className="bg-white shadow-sm">
+            <header className="bg-gray-300 shadow-sm">
                 <div className="container px-4">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex items-center">

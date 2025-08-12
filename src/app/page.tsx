@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
 
-import { Establishment, establishments } from "../lib/establishment";
+import { establishments } from "../mocks/establishments.mock";
+import { Establishment } from "../lib/types/establishment";
+
+import { Navbar } from "../components/Navbar";
 import Card from "../components/Card";
 import Modal from "../components/Modal";
-import { Navbar } from "../components/Navbar";
 
 type FilterType =
     | "todos"
